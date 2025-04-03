@@ -324,10 +324,9 @@
             <li><a href="#about">About</a></li>
             <li><a href="#experience-section">Experience</a></li>
             <li><a href="#certifications">Certifications</a></li>
-            <li><a href="#projects">Freelace VAPT Services</a></li>
-            <li><a href="#projects">Freelancing Projects</a></li>
+            <li><a href="#vapt-services">Freelace VAPT Services</a></li>
+            <li><a href="#project">Freelancing Projects</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>   
     </header>
@@ -891,7 +890,7 @@
     </style>
 </head>
     <!-- VAPT Services Section -->
-<section class="vapt-services">
+<section id="vapt-services" class="vapt-services">
     <div class="container">
         <h2 class="section-title">VAPT Services</h2>
         <p class="section-subtitle">Comprehensive Security Solutions with Remediation Support</p>
@@ -902,7 +901,7 @@
                 <i class="fas fa-code service-icon"></i>
                 <h3>Web Application VAPT</h3>
                 <ul class="service-features">
-                    <li>SAST & DAST Implementation</li>
+                    <li> Broken Access Control & Privilege Escalation</li>
                     <li>OWASP Top 10 Vulnerability Assessment</li>
                     <li>Business Logic Flaw Detection</li>
                     <li>Custom Patch Development</li>
@@ -917,19 +916,21 @@
                     <li>REST/SOAP API Assessment</li>
                     <li>Authentication Bypass Testing</li>
                     <li>Rate Limiting & Throttling Analysis</li>
-                    <li>Data Exposure Prevention</li>
+                    <li>API Endpoint & Token Security Testing </li>
                 </ul>
             </div>
 
             <!-- Mobile App Security -->
             <div class="service-card">
                 <i class="fas fa-mobile-alt service-icon"></i>
-                <h3>Mobile Application VAPT</h3>
+                <h3>Mobile Application VAPT(Android)</h3>
                 <ul class="service-features">
-                    <li>Android SAST/DAST</li>
+                    <li>Static & Dynamic Code Analysis</li>
                     <li>Reverse Engineering Prevention</li>
                     <li>Secure Storage & Encryption Testing</li>
                     <li>Runtime Protection Analysis</li>
+                     <li>Business Logic Testing</li>
+                   
                 </ul>
             </div>
 
@@ -938,10 +939,11 @@
                 <i class="fas fa-network-wired service-icon"></i>
                 <h3>Network VAPT</h3>
                 <ul class="service-features">
-                    <li>Firewall Configuration Audit</li>
-                    <li>Penetration Testing</li>
-                    <li>IDS/IPS Effectiveness Testing</li>
-                    <li>Compliance (ISO 27001, PCI-DSS)</li>
+                    <li>Network Infrastructure Assessment</li>
+                    <li>Vulnerability Assessment & Penetration Testing (VAPT)</li>
+                    <li>Firewall Security Testing & Configuration Review</li>
+                    <li>Network Traffic Analysis & Intrusion Detectiont</li>
+                   
                 </ul>
             </div>
         </div>
@@ -1079,6 +1081,229 @@
 }
 </style>
 <body>
+<!-- VAPT Projects Section -->
+<section id="project" class="vapt-projects">
+    <div id="project" class="container">
+        <h2 class="section-title">Freelance VAPT Projects</h2>
+        <p class="section-subtitle">Security Assessments & Client Feedback</p>
+
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-badge">Nework & Web Application VAPT </span>
+                    <h3>E-Commerce Platform Security Assessment</h3>
+                    <div class="project-meta">
+                        <span><i class="fas fa-calendar-alt"></i> Duration: Live </span>
+                        <span><i class="fas fa-map-marker-alt"></i> Stashlers Pvt. Ltd., Pune</span>
+                    </div>
+                </div>
+
+                <div class="project-details">
+                    <h4>Key Achievements:</h4>
+                    <ul class="service-features">
+                        <li>Identified 15+ critical vulnerabilities including RCE, CSRF,XSS etc.</li>
+                        <li>Implemented Network Security & Set strong rules for Firewall.</li>
+                      <li>Provide & Support Developer Team for patch the Vulnerabilities.</li>
+                      <li>Done Security Desktop Audits.</li>
+                        <li>Reduced attack surface by 40% through remediation.</li>
+                    </ul>
+
+                    <div class="tech-used">
+                        <h4>Tools & Technologies:</h4>
+                        <div class="tech-tags">
+                            <span>Burp Suite Pro</span>
+                            <span>OWASP ZAP</span>
+                            <span>Nessus</span>
+                            <span>Metasploit</span>
+                            <span>Nmap</span>
+                        </div>
+                    </div>
+
+                    <div class="client-feedback">
+                        <div class="client-profile">
+                            <img src="/logo.jpg" alt="Client">
+                            <div class="client-info">
+                                <h5>Kunal M.</h5>
+                                <p>CEO,Stashlers Pvt. Ltd.</p>
+                            </div>
+                        </div>
+                        <blockquote>
+                            "Thorough assessment with clear remediation steps. Vulnerability reports included 
+                            detailed PoC videos that helped our team understand risks immediately."
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-badge">Web Applicatoin VAPT </span>
+                    <h3>E-Commerce & Service Web Applicaion Security Assessment</h3>
+                    <div class="project-meta">
+                        <span><i class="fas fa-calendar-alt"></i> Duration: 2 months </span>
+                        <span><i class="fas fa-map-marker-alt"></i> Delta System, Nashik</span>
+                    </div>
+                </div>
+
+                <div class="project-details">
+                    <h4>Key Achievements:</h4>
+                    <ul class="service-features">
+                      <li>Identified 7+ critical vulnerabilities including RCE, CSRF,XSS etc.</li>
+                        <li>Reduced attack surface by 40%. through remediation.</li>
+                        <li>Support Developer Team for remediation & patching the Vulnerabilities.</li>
+                    </ul>
+
+                    <div class="tech-used">
+                        <h4>Tools & Technologies:</h4>
+                        <div class="tech-tags">
+                            <span>Burp Suite Pro</span>
+                            <span>OWASP ZAP</span>
+                            <span>Nessus</span>
+                            <span>Nmap</span>
+                        </div>
+                    </div>
+
+                    <div class="client-feedback">
+                        <div class="client-profile">
+                            <img src="logo2.jpg" alt="Client">
+                            <div class="client-info">
+                                <h5>Virag B.</h5>
+                                <p>CEO, Delta System.</p>
+                            </div>
+                        </div>
+                        <blockquote>
+                            "Exceptional DAST implementation that uncovered critical flaws in Web Application our team missed.
+                            Provided prioritized patching roadmap that saved us 200+ engineering hours."
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+/* Projects Section CSS */
+.vapt-projects {
+    padding: 4rem 0;
+    background: #0a192f;
+    border-top: 1px solid #1a3658;
+}
+
+.project-card {
+    background: #172a45;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-3px);
+}
+
+.project-header {
+    border-bottom: 1px solid #1a3658;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.project-badge {
+    background: #64ffda;
+    color: #0a192f;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.project-card h3 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.project-meta {
+    display: flex;
+    gap: 1.5rem;
+    color: #8892b0;
+    font-size: 0.9rem;
+}
+
+.project-meta i {
+    margin-right: 0.5rem;
+    color: #64ffda;
+}
+
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    margin: 1rem 0;
+}
+
+.tech-tags span {
+    background: #1a3658;
+    color: #64ffda;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+.client-feedback {
+    background: #1a3658;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+}
+
+.client-profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.client-profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.client-info h5 {
+    color: #64ffda;
+    margin: 0;
+}
+
+.client-info p {
+    color: #8892b0;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+blockquote {
+    color: #8892b0;
+    border-left: 3px solid #64ffda;
+    padding-left: 1rem;
+    margin: 0;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .project-meta {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .tech-tags {
+        gap: 0.5rem;
+    }
+}
+</style>
     <!-- Certifications section -->
     <div id="certifications" class="certifications-area">
         <div class="container">
@@ -1231,25 +1456,22 @@
     <div id="skills" class="skills-area">
         <div class="container">
             <div class="section-title">
-                <h2>My Skills</h2>
+                <h2>My Skills </h2>
             </div>
             <ul class="skills-list">
-                <li><h4>Red Teaming</h4></li>
-                <li><h4>Vulnerability Assessments</h4></li>
-                <li><h4>Penetration Testing</h4></li>
-                <li><h4>Secure Source Code Review</h4></li>
+                <li><h4>Web Application VAPT</h4></li>
                 <li><h4>Appsec VAPT</h4></li>
                 <li><h4>Android App VAPT</h4></li>
                 <li><h4>API VAPT</h4></li>
                 <li><h4>Network VAPT</h4></li>
+                <li><h4>Secure Source Code Review</h4></li>
                 <li><h4>OWASP TOP 10</h4></li>
                 <li><h4>Networking</h4></li>
-                <li><h4>Bash Scripting</h4></li>
+                <li><h4>Red Teaming</h4></li>
                 <li><h4>Python</h4></li>
                 <li><h4>JavaScript</h4></li>
-                <li><h4>C++</h4></li>
                 <li><h4>Metasploit</h4></li>
-                <li><h4>Burp Suite</h4></li>
+                <li><h4>Burp Suite Pro</h4></li>
                 <li><h4>Kali Linux</h4></li>
                 <li><h4>Problem Solving</h4></li>
                 <li><h4>Critical Thinking</h4></li>
@@ -1559,9 +1781,8 @@
                     <li><a href="#experience-section"><i class="fa fa-angle-right"></i> Experience</a></li>
                     <li><a href="#certifications"><i class="fa fa-angle-right"></i> Certifications</a></li>
                     <li><a href="#skills"><i class="fa fa-angle-right"></i> Skills</a></li>
-                    <li><a href="#projects">Freelace VAPT Services</a></li>
-                    <li><a href="#projects">Freelancing Projects</a></li>
-                    <li><a href="#projects"><i class="fa fa-angle-right"></i> Projects</a></li>
+                    <li><a href="#vapt-services">Freelace VAPT Services</a></li>
+                    <li><a href="#project">Freelancing Projects</a></li>
                     <li><a href="#contact"><i class="fa fa-angle-right"></i> Contact</a></li>
                 </ul>
             </div>
